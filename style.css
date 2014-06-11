@@ -40,7 +40,6 @@ div.node-master-image {display: none;}
 
 /* start main container styles */
 #shell960 {
-	width: 960px;
 	font-family: Georgia, serif;
     font-size:1.2em;
 	color: #1a1a1a;
@@ -128,6 +127,18 @@ span.dropCap {
 /* end paragraph styles */
 
 /* start background image and pull quote styles */
+
+.pullQuote {
+
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,Sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.1;
+	margin: 0;
+	padding: 20px 0;
+	border-top: 6px double #999;
+	border-bottom: 6px double #999;
+}
 
 .pullQuoteOverlay {
     position: relative;

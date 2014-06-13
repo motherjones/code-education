@@ -56,8 +56,8 @@ background-color: white !important;
 	background-repeat: repeat-y;
 	background-position:68%;
 	width: 100%;
-
 }
+
 /* end main container styles */
 
 /* start story section div styles */
@@ -71,21 +71,24 @@ background-color: white !important;
 } 
 */
 
-#shell960 .full {
-	width: 100%;
-	margin: 2em 0em;
-	background: white;
-}
-
 #shell960 .right-rail {
 	float: right;
-	text-align: left;
-	font-size: .8em;
-	font-style: italic;
-	line-height: 1.5em;
-	width: 30%;
 	background: white;
-	padding: 1%;	
+	width: 300px;
+}
+
+#shell960 .right-rail img {
+	max-width: 100%
+}
+
+#shell960 .right-rail .chart {
+	max-width: 100%
+}
+
+
+
+#shell960 .inline img {
+	width: 75%;
 }
 
 /* end story section div styles */
@@ -126,6 +129,9 @@ background-color: white !important;
 	border-top: 6px double #999;
 	border-bottom: 6px double #999;
 	padding: 1%;
+	margin: 2em 0;
+	width: 100%;
+	background: white;
 }
 
 
@@ -133,23 +139,28 @@ background-color: white !important;
 #shell960 .captionSmall {
 	font-family: Verdana, sans-serif;
 	font-size: 12px;
-	font-style:italic;
-	color:#81929B;
 	line-height: 1.5;
 	position: relative;
-	width: 100%;
-	max-width: 15em;
 	border-top: 1px solid #ccc;
 	padding-top: 1em;
-}
-
-#shell960 .left {
-	float: left;
-}
-
-#shell960 .right {
+	max-width: 60%;
+	font-weight: bold;
 	margin-top: 1em;
-)
+	text-align: left;
+}
+
+#shell960 .credit {
+
+	font-weight: normal;
+}
+
+#shell960 .footnote {
+
+	font-style: italic;
+	font-size: .7em;
+}
+
+
 
 
 #shell960 .captionNone {
@@ -229,8 +240,8 @@ background-color: white !important;
 
 /* start image styles */	
 
-#shell960 img.width960 {	
-	margin:10px 20px 10px -165px;
+#shell960 img {	
+
 }
 
 #shell960 .fullCentered {
@@ -362,16 +373,14 @@ span.smallCaps {
 }
 /* end table styles */
 
-@media only screen 
-and (max-width: 568px) {
+@media only screen and (max-width: 586px) {
 	
 	span.desktopOnly {
 		display:none;
 	}
 
-	div#shell960 {
-	    font-size:1em;
-		width: 98%;
+	#shell960 {
+
 	}
 
 	#shell960 div.right, div.left, div.full, div.zebra {
